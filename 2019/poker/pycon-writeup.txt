@@ -1,0 +1,44 @@
+# Call, Raise or Fold - Python for Simulating Poker Games
+
+
+I wanted to answer a simple question - Are there any statistics about poker hands that are a function number of Players and initial cards dealt? Python came handy to answer these questions -
+
+From Wikipedia
+
+> Poker is a family of card games that combines gambling, strategy, and skill. All poker variants involve betting as an intrinsic part of play, and determine the winner of each hand according to the combinations of players' cards, at least some of which remain hidden until the end of the hand. Poker games vary in the number of cards dealt, the number of shared or "community" cards, the number of cards that remain hidden, and the betting procedures.
+
+
+The Objective of this talk is -
+
+1. To look at a fun problem of [ranking Poker hands](https://projecteuler.net/problem=54)
+2. To demonstrate the power of Python's standard library alone to -
+   - Rank poker hands
+   - Run simulations
+
+Talk Summary -
+
+1. We start with describing different poker hands and how they are ranked.
+
+1. We discuss a solution using Python. Doing this in a language without 'set' built-in is considerably complex.
+   - This is where Python is an obvious choice.
+   - There's a Peter Norvig's solution (unfortunately can't easily find on web), it's elegant, terse, but hard to understand
+   - This solution uses Concepts from that, but builds our own.
+
+2. We then describe a way to Rank, 2 cards - that are dealt initially to each player.
+
+3. Finally, We describe, how we can simulate one Game of a Poker and Rank Players at each Stage
+   - Deal
+   - Flop
+   - Turn
+   - River
+
+4. Finally we will see how we can simulate a large number of such games and see if we can find out statistics about -
+   - What percentage initial 'deal' winners end up being final game winners.
+   - What percentage 'flop' winners end up being final game winners. and so on
+
+We have just demonstrated some of the questions we answered. We could also answer Other complex questions -
+ - Is Ace High during initial deal - really a good hand that can win?
+ - What about starting with a Pair?
+ - What about starting with same suit?
+
+Some of this questions can help one develop 'strategies' while playing Poker.
