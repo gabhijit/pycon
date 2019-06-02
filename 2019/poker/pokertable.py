@@ -1,3 +1,7 @@
+#
+# Copyright (C) 2019 - Abhijit Gadgil. See LICENCE file for further details
+#
+
 from pokerhand import PokerHand, MiniPokerHand
 from pokerhand import deck
 from itertools import combinations

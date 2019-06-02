@@ -1,3 +1,7 @@
+#
+# Copyright (C) 2019 - Abhijit Gadgil. See LICENCE file for further details
+#
+
 import random
 from operator import itemgetter
 
